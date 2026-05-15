@@ -1,5 +1,9 @@
 /* ── RESET ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; }
+
 html { scroll-behavior: smooth; }
  
 body {
@@ -29,7 +33,7 @@ nav {
   text-decoration: none; color: #0d0d0d;
 }
  
-.nav-logo img { width: 30px; height: 30px; object-fit: contain; }
+.nav-logo img { width: 30px; height: 30px; }
  
 .nav-links { display: flex; gap: 2.2rem; list-style: none; }
 .nav-links a {
@@ -302,7 +306,6 @@ nav {
 }
 .stat-l { font-size: .8rem; color: #888; font-weight: 400; }
  
-/* ── CLOSING ── */
 .closing {
   background: #0d0d0d;
   padding: 8rem 5vw; text-align: center;
